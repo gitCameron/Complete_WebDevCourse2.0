@@ -6,7 +6,6 @@
 		<title>CodePlayer</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="css/main_page.css">
-
 	</head>
 
 	<body>
@@ -27,10 +26,13 @@
 
 		<div id="bodyContainer">
 
-			<textarea id="htmlPanel" class="panel">Hello World!</textarea>
+			<textarea id="htmlPanel" class="panel"><p>Hello World!</p></textarea>
+
+			<textarea id="cssPanel" class="panel hidden">p { color: green; }</textarea>
+
+			<textarea id="javascriptPanel" class="panel hidden">alert("Hi there!")</textarea>
 
 			<iframe id="outputPanel" class="panel"></iframe>
-
 
 		</div>
 
