@@ -6,19 +6,19 @@ body {
 	padding: 0;
 }
 
-#topBar {
+#header {
 	background-color: #eeeeee;
 	width: 100%;
 	padding: 5px;
 	height: 30px;
 }
 
-#topBarLogo {
+#headerLogo {
 	float: left;
 	padding: 3px 5px;
 	font-size: 1.2em;
 	font-weight: bold;
-	color: blue;
+	color: #05B223;
 }
 
 #buttonContainer {
@@ -46,27 +46,26 @@ body {
 }
 
 .active {
-	background-color: #E8F2FE;
+	background-color: #0BDD6C;
 }
 
 .highlightedButton {
-	background-color: gray;
+	background-color: lightgray;
 }
 
 textarea {
-	border-top: none;
-	border-color: lightgray;
-	resize: none;
 	font-family: Helvetica sans-serif;
 	font-size: 1em;
 	outline: none;
-	padding: 10px;
+	resize: none;
+    border-top: none;
+    border-color: grey;
 }
 
 iframe {
 	border: none;
 	font-family: Helvetica sans-serif;
-	background-color: lightgray;
+	background-color: white;
 }
 
 iframe document {
@@ -81,5 +80,9 @@ iframe document {
 
 .hidden {
 	display: none;
+}
+
+#textParagraph {
+
 }
 

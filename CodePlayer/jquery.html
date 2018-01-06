@@ -10,9 +10,9 @@
 
 	<body>
 
-		<div id="topBar">
+		<div id="header">
 			
-			<div id="topBarLogo"> CodePlayer </div>
+			<div id="headerLogo"> CodePlayer </div>
 
 			<div id="buttonContainer">
 
@@ -26,11 +26,11 @@
 
 		<div id="bodyContainer">
 
-			<textarea id="htmlPanel" class="panel"><p>Hello World!</p></textarea>
+			<textarea id="htmlPanel" class="panel"><p id="textParagraph">Hello World!</p></textarea>
 
-			<textarea id="cssPanel" class="panel hidden">p { color: green; }</textarea>
+			<textarea id="cssPanel" class="panel hidden">p { color: red; }</textarea>
 
-			<textarea id="javascriptPanel" class="panel hidden">alert("Hi there!")</textarea>
+			<textarea id="javascriptPanel" class="panel hidden">document.getElementById("textParagraph").innerHTML = "Hello Cam!";</textarea>
 
 			<iframe id="outputPanel" class="panel"></iframe>
 
