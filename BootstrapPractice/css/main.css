@@ -1,10 +1,33 @@
 
 .container-lorem {
 
-	margin-top: 70px;
+	margin-top: 30px;
 }
 
 .container-form {
 
 	
+}
+
+.navbar-nav .nav-item {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.jumbotron {
+
+	background: url('../images/townhomes.jpg') no-repeat center center;
+	background-size: cover;
+	opacity: 1;
+	color: white;
+	text-shadow: #444 0 2px 2px;
+	height: 500px;
+}
+
+#searchPropBtn i {
+	padding-right: 30px;
+}
+
+.active {
+	color: white;
 }
