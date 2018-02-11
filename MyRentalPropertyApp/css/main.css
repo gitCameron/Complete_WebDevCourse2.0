@@ -9,11 +9,6 @@
 	
 }
 
-.navbar-nav .nav-item {
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
 .jumbotron {
 
 	background: url('../images/townhomes.jpg') no-repeat center center;
@@ -30,4 +25,12 @@
 
 .active {
 	color: white;
+}
+
+.loginButton {
+	float: right;
+}
+
+.rememberMeCheckbox {
+	margin-right: .5em;
 }
