@@ -1,0 +1,26 @@
+body {
+	padding: 0;
+	margin: 0 auto;
+}
+
+.brandFont {
+
+	font-weight: bold;
+	color: #FD8224 !important;
+}
+
+.jumbotron {
+
+	background-image: url(../images/trading_desk.jpeg);
+	color: white;
+}
+
+.jumbotron .display-3 {
+
+	color: #FD8224;
+}
+
+.jumbotron .my-4 {
+
+	background-color: #FD8224;
+}
